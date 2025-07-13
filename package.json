@@ -1,5 +1,5 @@
 {
-  "name": "actionize",
+  "name": "@aymenmerabta5/actionize",
   "version": "1.0.0",
   "description": "A powerful TypeScript React library for handling server actions with type-safe validation, built for Next.js applications with React 19+ and Zod schema validation.",
   "main": "dist/index.js",
@@ -39,16 +39,16 @@
     "validation",
     "hooks"
   ],
-  "author": "Your Name",
+  "author": "Aymen Merabta",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/actionize.git"
+    "url": "https://github.com/aymenmerabta5/actionize.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/actionize/issues"
+    "url": "https://github.com/aymenmerabta5/actionize/issues"
   },
-  "homepage": "https://github.com/yourusername/actionize#readme",
+  "homepage": "https://github.com/aymenmerabta5/actionize#readme",
   "peerDependencies": {
     "react": ">=19.0.0",
     "react-dom": ">=19.0.0"

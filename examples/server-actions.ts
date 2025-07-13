@@ -2,7 +2,7 @@
 "use server";
 
 import * as z from "zod";
-import { createServerAction } from "actionize";
+import { createServerAction } from "@aymenmerabta5/actionize";
 
 // Basic name validation example
 const nameSchema = z.object({
