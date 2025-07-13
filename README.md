@@ -14,19 +14,19 @@ A powerful TypeScript React library for handling server actions with type-safe v
 ## Installation
 
 ```bash
-npm install actionize zod
+npm install next-actionize zod
 ```
 
 or
 
 ```bash
-yarn add actionize zod
+yarn add next-actionize zod
 ```
 
 or
 
 ```bash
-pnpm add actionize zod
+pnpm add next-actionize zod
 ```
 
 ## Quick Start
@@ -38,7 +38,7 @@ pnpm add actionize zod
 "use server";
 
 import * as z from "zod";
-import { createServerAction } from "actionize";
+import { createServerAction } from "next-actionize";
 
 const nameSchema = z.object({
   name: z
@@ -58,7 +58,7 @@ export const nameAction = createServerAction(nameSchema, async (data) => {
 
 ```typescript
 // config/actions.ts
-import { createActionConfig } from "actionize";
+import { createActionConfig } from "next-actionize";
 import { nameAction } from "../actions/nameAction";
 
 const nameSchema = z.object({
@@ -81,7 +81,7 @@ export const nameActionConfig = createActionConfig(
 // components/MyForm.tsx
 "use client";
 
-import { useActionize } from "actionize";
+import { useActionize } from "next-actionize";
 import { nameActionConfig } from "../config/actions";
 
 export default function MyForm() {
