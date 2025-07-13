@@ -93,7 +93,7 @@ export const useActionize = <TSchema extends z.ZodObject<any>>({
     [action]
   );
 
-  const [state, formAction] = useActionState(
+  const [state] = useActionState(
     wrappedAction,
     initialData as Awaited<z.output<TSchema>>
   );
@@ -130,7 +130,8 @@ export const useActionize = <TSchema extends z.ZodObject<any>>({
   );
 
   const register = useCallback(
-    (name: string, options?: { required?: boolean }) => {
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    (name: string, _options?: { required?: boolean }) => {
       return {
         name,
         onChange: (
