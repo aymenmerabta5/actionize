@@ -1,5 +1,5 @@
 {
-  "name": "@aymenmerabta5/actionize",
+  "name": "actionize",
   "version": "1.0.0",
   "description": "A powerful TypeScript React library for handling server actions with type-safe validation, built for Next.js applications with React 19+ and Zod schema validation.",
   "main": "dist/index.js",

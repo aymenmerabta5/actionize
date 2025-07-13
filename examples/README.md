@@ -21,5 +21,5 @@ Each example is designed to work with Next.js 14+ and React 19+.
 ### Running Examples
 
 1. Copy the example files to your Next.js project
-2. Install actionize: `npm install @aymenmerabta5/actionize zod`
+2. Install actionize: `npm install actionize-forms zod`
 3. Follow the setup instructions in each example file

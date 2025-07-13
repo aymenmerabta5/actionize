@@ -2,7 +2,7 @@
 "use client";
 
 import React from "react";
-import { useActionize, createActionConfig } from "@aymenmerabta5/actionize";
+import { useActionize, createActionConfig } from "actionize";
 import * as z from "zod";
 
 // This would typically be in a separate server action file
