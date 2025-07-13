@@ -1,0 +1,55 @@
+# Source files
+src/
+*.ts
+*.tsx
+!dist/
+
+# Development files
+.vscode/
+.idea/
+*.log
+node_modules/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build artifacts
+build/
+coverage/
+.nyc_output/
+.cache/
+
+# Test files
+**/*.test.*
+**/*.spec.*
+__tests__/
+__mocks__/
+
+# Config files
+jest.config.*
+babel.config.*
+rollup.config.*
+tsconfig.*
+.eslintrc.*
+.prettierrc.*
+.editorconfig
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+.circleci/
+
+# Documentation (keep README, LICENSE, CHANGELOG)
+docs/
+*.md
+!README.md
+!CHANGELOG.md
+
+# Other
+.DS_Store
+Thumbs.db
+*.tgz
+*.tar.gz
